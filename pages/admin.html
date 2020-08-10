@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="el" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Δημήτρης &amp; Είρηνη</title>
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<meta name="description" content="Προσκλητήριο γάμου του Δημήτρη και της Ειρήνης">
+	
+
+	<style>
+    * {
+      box-sizing: border-box;
+    }
+  
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px;
+    }
+  
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #fff6e9 0%, #ffe8e2 100%);
+    }
+  
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+  
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+  
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+  
+    form {
+      background: #fff;
+      padding: 40px;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.04);
+    }
+  
+    button, .btn {
+      border: none;
+      font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px;
+      padding: 9px 18px;
+      padding: .5em 1em;
+      cursor: pointer;
+      background: #ffece4;
+      color: #000000;
+      text-decoration: none;
+    }
+  
+    input[type=text], textarea, input[type=email], input[type=password] {
+      position: relative;
+      width: 100%;
+      margin: 0 0 11px;
+      padding: 11px 24px;
+      font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: inherit;
+      color: #979797;
+      background-color: transparent;
+      border: 1px solid #ebebeb;
+      border-radius: 0;
+      outline: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      cursor: text;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-transition: border-color .2s ease-in-out;
+      transition: border-color .2s ease-in-out;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <form action="/admin" method="post">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+</html>
